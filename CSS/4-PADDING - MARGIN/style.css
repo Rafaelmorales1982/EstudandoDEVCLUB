@@ -1,0 +1,33 @@
+.box {
+    width: 50px;
+    height: 50px;
+    background: #ff1493;
+    /*padding: 50px;*/
+   /* margin: 20px;*/
+   margin-top: 20px;
+   margin-right: 10px;
+   margin-left: 10px;
+   margin-bottom: 20px;
+
+   /*ATALHO DO RELÓGIO*/
+   padding: 10px  50px 30px 5px;
+   /*       12h    15h  18h  21h                        
+            cima   direito  baixo  esquerdo
+   
+   */
+}
+
+.box-2 {
+    width: 50px;
+    height: 50px;
+    background:#9932cc;
+  /*  margin: 50px;
+    padding: 30px;*/
+
+    /*ATALHO padding ou margin com 3 valores*/
+    padding: 10px 50px 30px;
+    /*1° top  2° direito e esquerdo  3° bottom*/
+
+    margin: 50px 50px;
+    /*1° TOP E BOTTOM  2° DIREITO E ESQUERDO*/
+}

@@ -1,0 +1,6 @@
+
+/*UTILIZANDO !IMPORTANT ELE DA PREFERÊNCIA PRIMEIRO (tem prioridade)*/
+h1 {
+    color: red !important;/*utilizar se precisar*/
+    color: blue;
+}

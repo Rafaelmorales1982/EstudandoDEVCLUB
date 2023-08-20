@@ -1,0 +1,79 @@
+/*
+SIGNIFICADO CSS
+FOLHA DE ESTILO EM CASCATA
+*/
+
+/*CONCATENANDO SELETORES NO CSS*/
+
+
+.texto, .botao, p, #segundo-botao{
+    color: blue;
+}
+
+
+
+
+
+
+
+
+/*classes
+.texto {
+    color: red;
+    font-weight: bold;
+}
+.botao{
+    background: blue;
+}
+
+*/
+
+
+/*
+UTILIZANDO ID PARA ESTILIZAR O CÓDIGO
+#titulo{
+    color: red;
+    font-size: 55px;
+}
+
+#paragrafo {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#botao {
+    background: green;
+}
+#outro-botao {
+    background: chocolate;
+}
+
+
+
+*/
+
+
+
+
+
+
+
+
+/* CSS UTILIZANDO APENAS TAGS
+h1{
+    color: blue;
+    background-color:black;
+}
+
+p{
+    color: blue;
+    font-size: 20px;
+}
+
+button{
+    background-color: green;
+    border-color: darkgreen;
+}
+*/
+

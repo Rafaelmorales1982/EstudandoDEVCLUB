@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    border: 1px solid red;
+    color: blue;
+}
+
+/*Trocar meu placeholder utilizando pseudo elemento*/
+input::placeholder {
+    color: #ff1396;
+}
+
+/*colocando cor do ntexto apenas na primeira linha */
+/*pseudoElemento*/
+p::first-line {
+    color: #ff1396;
+}
+
+/*colocando uma cor apenas na primeira letra da linha*/
+/*pseudoElemento*/
+p::first-letter {
+    color: blue;
+}
+
+/*PSEUDO ELEMENTOS BEFORE E AFTER   - ANTES E DEPOIS*/
+/*ANTES*/
+a::before {
+    content: " 🚀 ";
+    color: blue;
+
+}
+
+/*DEPOIS*/
+a::after {
+    content: " 🪐 ";
+}

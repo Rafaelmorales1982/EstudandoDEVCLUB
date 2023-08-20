@@ -1,0 +1,14 @@
+*{  /*border-box ao colocar mais coisa na caixa ele não deixa crescer pra fora e sim internamente */
+    box-sizing: border-box;/*TRATA O COMPORTAMENTO DO WIDTH E HEIGHT*/
+    /*CONTENT-BOX ELE CRESCE PRA FORA*/
+}
+
+.box {
+    width: 100px;/*DELIMITADO POR BORDER-BOX*/
+    height: 100px;/*DELIMITADO POR BORDER-BOX*/
+    background: #ff1493;
+    padding: 20px;
+    border: 10px solid #0000ff;
+}
+
+/*BOX SIZING  */

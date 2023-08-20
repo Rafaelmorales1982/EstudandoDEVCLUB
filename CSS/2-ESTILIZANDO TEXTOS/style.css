@@ -1,0 +1,23 @@
+/*ESTILIZANDO TEXTOS*/
+h1 {
+    color: #FF00FF;
+    font-size: 64px;/*TAMANHO DO TEXTO*/
+    font-weight: bolder;/*NEGRITO*/
+    font-family:'Roboto', sans-serif;
+    font-style: italic;/*ESTILO DA FONTE*/
+    text-shadow:10px 5px 10px red ;/*SOMBREAMENTO NO TEXTO*/
+}
+
+p{
+    color: blue;/*COR DO TEXTO*/
+    font-size: 30px;/*TAMANHO DO TEXTO*/
+    font-weight: 100;/*ESPEÇURA DO TEXTO*/
+    font-family:'Roboto', sans-serif;/*FONTE CONFIGURADA QUE  O SITE VAI UTILIZAR*/
+    font-style: italic;/*ESTILO FONTE*/
+    line-height: 50px;/*ESPAÇAMENTO ENTRE LINHAS*/
+    letter-spacing: 8px;/*ESPAÇAMENTO ENTRE A LETRAS*/
+    word-spacing: 40px;/*ESPAÇAMENTO ENTRE AS PALAVRAS*/
+    text-align: left;/*CONFIGURAÇÃO DA POSIÇÃO DO TEXTO*/
+    text-transform: uppercase;/*COLOCANDO AS LETRAS MAIÚSCULAS ETC*/
+    text-decoration: underline;/*DECORAÇÃO DO TEXTO */
+}
